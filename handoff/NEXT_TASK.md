@@ -1,36 +1,35 @@
-# Handoff Specification for ChatGPT Architect — Phase 0.6.1 Review
+# Handoff Specification for ChatGPT Architect — Task 001 Review
 
 **Date:** 2026-10-10  
-**Phase:** Phase 0.6.1 CI & Security Hardening  
+**Task:** Task 001 — LIDO Music First: Vô Thường (Impermanence)  
 **Repository:** https://github.com/tuanweb2026/LIDO-AI-MEDITATION-MUSIC-FACTORY  
 
 ---
 
 ## 1. Concrete Task for ChatGPT Review
 
-Perform an independent review of the Phase 0.6.1 CI & Security Hardening resolutions on GitHub.
+Review the Creative Brief and Musicful.ai Generation Blueprint for **"Vô Thường — Impermanence"** (`docs/creative_brief_vo_thuong.md`).
 
 ### Relevant Artifacts & Verification Links:
-- Fixed CI Workflow: `.github/workflows/ci.yml`
-- Hardened Pre-Push Gate: `scripts/pre_push_check.py`
-- Git Hook Installer Script: `scripts/install_hooks.py`
-- Negative Test Suite: `tests/test_security_scanner.py`
-- Resolution Register: `reports/CHATGPT_REVIEW.md`
+- Creative Brief Document: `docs/creative_brief_vo_thuong.md`
+- Master Status: `reports/current_status.md`
+- Review Register: `reports/CHATGPT_REVIEW.md`
 - Machine Bridge Status: `reports/bridge_status.json`
 
 ---
 
-## 2. Key Resolutions Implemented for Verification
+## 2. Key Creative Specifications Submitted for Architect Review
 
-1. **GitHub Actions Syntax Fix:** Corrected `python-python` to `python-version: '3.9'`. Updated actions to `checkout@v4` and `setup-python@v5`.
-2. **Secret Scanner Hardening:** Expanded secret patterns for Google API keys, GitHub PAT/OAuth tokens, AWS keys, PEM Private Keys, Slack tokens, and DB URIs. Constructed regexes via string concatenation to avoid scanner self-matching. Integrated `--full-scan` mode for complete Git history scanning (`git log -p`). Redacted match outputs (`[VALUE REDACTED]`).
-3. **Privacy Gate Enforcement:** Returns failure status and blocks push if unsanitized absolute user paths are found. Documented whitelist (`reports/phase0_environment_audit.md`) tested.
-4. **Git Hook Utility:** Built `scripts/install_hooks.py` to allow any developer to verify or install `.git/hooks/pre-push`.
-5. **Negative Test Suite:** Added `tests/test_security_scanner.py` verifying that secret matches, PATs, and unsanitized paths trigger gate failures.
+1. **Lead Instrument:** Vietnamese Đàn Tranh (16-string zither) playing pentatonic melodies (Hò, Xự, Xang, Xê, Cống).
+2. **Secondary Accents:** Deep acoustic bamboo flute (Sáo/Tiêu), 528Hz Tibetan singing bowls, and natural stream water atmosphere.
+3. **Hard Restrictions:** Zero human vocals, zero drums/percussion beats, zero EDM/pop/synth rhythms.
+4. **Musicful.ai Master Prompt:**
+   `Extended meditative Asian ambient soundscape, leading traditional Vietnamese Dan Tranh 16-string zither with expressive organic bending notes, paired with deep acoustic bamboo flute Xiao and continuous resonant 528Hz Tibetan singing bowls. Gentle natural mountain stream water flowing, soft wooden wind chimes, spatial warmth. Meditative, deeply relaxing, peaceful, slow tempo, 60 BPM equivalent flow, pentatonic scale, no vocals, no drums, no percussion, no electronic beats, high fidelity acoustic instruments.`
+5. **Arrangement & Looping:** 4-movement structure (Khởi / Thủy / Hòa / Hồi) with dynamic spatial layering to prevent fatigue in 1-3 hour YouTube videos.
 
 ---
 
-## 3. Confidentiality & Safety
+## 3. Unverified Assumptions & Next Steps
 
-Zero secrets, API keys, or personal credentials are stored or exposed.
-Phase 1 remains **NOT AUTHORIZED**.
+- **Audio Fidelity:** Unverified until User manually generates audio using Musicful.ai / Suno / Udio.
+- **Phase 1 Authorization:** **NOT AUTHORIZED**. Awaiting ChatGPT architectural review and User feedback.
