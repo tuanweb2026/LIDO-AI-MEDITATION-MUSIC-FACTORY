@@ -1,33 +1,36 @@
-# Handoff Specification for ChatGPT Architect — Next Task Review
+# Handoff Specification for ChatGPT Architect — Phase 0.6.1 Review
 
 **Date:** 2026-10-10  
-**Phase:** Phase 0.6 Handoff  
+**Phase:** Phase 0.6.1 CI & Security Hardening  
 **Repository:** https://github.com/tuanweb2026/LIDO-AI-MEDITATION-MUSIC-FACTORY  
-**Current Commit SHA:** `38d4adc`  
 
 ---
 
 ## 1. Concrete Task for ChatGPT Review
 
-Review the Phase 0.6 Automated GitHub Bridge infrastructure, pre-push compliance checks, CI workflow, and Phase 1 readiness documentation without requiring manual file copy/paste.
+Perform an independent review of the Phase 0.6.1 CI & Security Hardening resolutions on GitHub.
 
-### Relevant File Paths & Links:
-- Workflow CI Definition: `.github/workflows/ci.yml`
-- Pre-Push Verification Script: `scripts/pre_push_check.py`
-- Current Status: `reports/current_status.md`
-- Machine-Readable Bridge Status: `reports/bridge_status.json`
-- Independent Review Register: `reports/CHATGPT_REVIEW.md`
-- Phase 0.5 Verification: `reports/phase0_5_independent_verification.md`
-
----
-
-## 2. Architectural Decisions & Guidance Required
-
-1. **Phase 1 Ingestion Strategy:** Upon user approval for Phase 1, confirm whether YouTube API v3 keys should be initialized with quota guard limits (10,000 units/day ceiling) or if seed-driven offline fixture execution remains default when no API key is present.
-2. **Review Feedback Protocol:** Confirm that ChatGPT review findings logged in `reports/CHATGPT_REVIEW.md` will serve as authoritative architectural guidance for Antigravity.
+### Relevant Artifacts & Verification Links:
+- Fixed CI Workflow: `.github/workflows/ci.yml`
+- Hardened Pre-Push Gate: `scripts/pre_push_check.py`
+- Git Hook Installer Script: `scripts/install_hooks.py`
+- Negative Test Suite: `tests/test_security_scanner.py`
+- Resolution Register: `reports/CHATGPT_REVIEW.md`
+- Machine Bridge Status: `reports/bridge_status.json`
 
 ---
 
-## 3. Confidentiality & Privacy Notice
+## 2. Key Resolutions Implemented for Verification
 
-Zero API keys, private tokens, or personal identifiers are stored or referenced in this handoff artifact.
+1. **GitHub Actions Syntax Fix:** Corrected `python-python` to `python-version: '3.9'`. Updated actions to `checkout@v4` and `setup-python@v5`.
+2. **Secret Scanner Hardening:** Expanded secret patterns for Google API keys, GitHub PAT/OAuth tokens, AWS keys, PEM Private Keys, Slack tokens, and DB URIs. Constructed regexes via string concatenation to avoid scanner self-matching. Integrated `--full-scan` mode for complete Git history scanning (`git log -p`). Redacted match outputs (`[VALUE REDACTED]`).
+3. **Privacy Gate Enforcement:** Returns failure status and blocks push if unsanitized absolute user paths are found. Documented whitelist (`reports/phase0_environment_audit.md`) tested.
+4. **Git Hook Utility:** Built `scripts/install_hooks.py` to allow any developer to verify or install `.git/hooks/pre-push`.
+5. **Negative Test Suite:** Added `tests/test_security_scanner.py` verifying that secret matches, PATs, and unsanitized paths trigger gate failures.
+
+---
+
+## 3. Confidentiality & Safety
+
+Zero secrets, API keys, or personal credentials are stored or exposed.
+Phase 1 remains **NOT AUTHORIZED**.

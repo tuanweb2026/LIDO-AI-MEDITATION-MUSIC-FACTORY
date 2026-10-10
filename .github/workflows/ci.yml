@@ -12,16 +12,18 @@ jobs:
 
     steps:
       - name: Checkout Source Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Full depth for complete git history security scanning
 
       - name: Set up Python 3.9
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-python: '3.9'
+          python-version: '3.9'
 
       - name: Run Pre-Push Security & Compliance Scan
         run: |
-          PYTHONPATH=. python3 scripts/pre_push_check.py
+          PYTHONPATH=. python3 scripts/pre_push_check.py --full-scan
 
       - name: Execute Unit Test Suite
         run: |
@@ -33,7 +35,7 @@ jobs:
           echo "## LIDO AI Meditation Music Factory — CI Status" >> $GITHUB_STEP_SUMMARY
           echo "**Commit SHA:** \`${{ github.sha }}\`" >> $GITHUB_STEP_SUMMARY
           echo "**Ref:** \`${{ github.ref }}\`" >> $GITHUB_STEP_SUMMARY
-          echo "**Phase:** Phase 0.6 Automated Bridge" >> $GITHUB_STEP_SUMMARY
+          echo "**Phase:** Phase 0.6.1 CI & Security Hardening" >> $GITHUB_STEP_SUMMARY
           echo "**Phase 1 Authorized:** NO (Awaiting Owner Approval)" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### Audit Reports Generated" >> $GITHUB_STEP_SUMMARY
