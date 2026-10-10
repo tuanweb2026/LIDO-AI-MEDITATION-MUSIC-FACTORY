@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-10T02:15:37.855348+00:00",
-  "commit_sha": "5bafd9b0153f176ba581ef51f1f1d7ed7f18dff5",
+  "timestamp": "2026-10-10T02:15:47.062047+00:00",
+  "commit_sha": "34a04a5f2c95c4f21e53af271ce405274342e118",
   "phase": "PHASE_0.6.1_CI_SECURITY_HARDENING",
   "phase_1_authorized": false,
   "test_status": "PASSED",
@@ -10,7 +10,7 @@
   "review_status": "AWAITING_CHATGPT_REVIEW",
   "scan_details": {
     "tracked_files_count": 37,
-    "history_scanned": true,
+    "history_scanned": false,
     "secret_violations_count": 0,
     "privacy_violations_count": 0
   }
