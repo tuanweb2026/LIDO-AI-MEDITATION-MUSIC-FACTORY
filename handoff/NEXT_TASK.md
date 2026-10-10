@@ -1,31 +1,30 @@
-# Handoff Specification for ChatGPT Architect — Task 002 Review
+# Handoff Specification for ChatGPT Architect — Task 003 Review
 
 **Date:** 2026-10-10  
-**Task:** Task 002 — Creative Brief "An Yên" (Inner Peace — 432Hz)  
+**Task:** Task 003 — Master Catalog of 5 Mystical Meditation Songs  
 **Repository:** https://github.com/tuanweb2026/LIDO-AI-MEDITATION-MUSIC-FACTORY  
 
 ---
 
 ## 1. Concrete Task for ChatGPT Review
 
-Review the Creative Brief and Musicful.ai Prompts for **"An Yên (Inner Peace) — 432Hz Acoustic Meditation"** (`docs/creative_brief_an_yen.md`).
+Review the 5-Song Mystical Meditation Catalog (`docs/lido_mystical_meditation_series.md`).
 
 ### Relevant Artifacts & Verification Links:
-- Creative Brief Document: `docs/creative_brief_an_yen.md`
+- Mystical Series Catalog: `docs/lido_mystical_meditation_series.md`
 - Master Status: `reports/current_status.md`
 - Review Register: `reports/CHATGPT_REVIEW.md`
 - Machine Bridge Status: `reports/bridge_status.json`
 
 ---
 
-## 2. Key Creative Specifications Submitted for Architect Review
+## 2. Key Master Catalog Specifications Submitted for Review
 
-1. **Theme & Tuning:** "An Yên" (Inner Peace / Stress Relief) micro-tuned to **432Hz Earth Natural Resonance**.
-2. **Lead Instruments:** Vietnamese Đàn Tranh (16-string zither), deep bamboo flute (Sáo Trúc/Tiêu), soft acoustic guitar.
-3. **Harmonic & Ambiance Sub-Layer:** Continuous 432Hz Tibetan singing bowl drone + soft mountain stream water & bamboo forest wind (-20dB background level).
-4. **Hard Restrictions:** 100% Pure Acoustic, Zero vocals, Zero drums/beats, Zero electronic synth pads.
-5. **Musicful.ai Master Prompt:**
-   `Extended tranquil Vietnamese acoustic meditation soundscape tuned to 432Hz natural frequency, lead traditional 16-string Dan Tranh zither with expressive organic note bending, paired with deep acoustic bamboo flute Tiêu and soft dampened acoustic guitar. Resonant low-mid background layer of continuous 432Hz Tibetan singing bowl drone, mixed with soft mountain stream water and gentle bamboo forest ambience. Peaceful, serene, 55 BPM, pentatonic scale, no vocals, no drums, no percussion, no electronic synth pads, 100 percent pure acoustic instruments.`
+1. **Track 1:** `Vô Thường (Impermanence)` — 528Hz Solfeggio (Đàn Tranh + Sáo Trúc).
+2. **Track 2:** `Trúc Lâm Sương Tịch (Misty Bamboo Sanctuary / An Yên)` — 432Hz Earth Resonance (Đàn Tranh + Tiêu + Acoustic Guitar).
+3. **Track 3:** `Hư Không Huyền Giác (Mystic Realization of the Void)` — 963Hz Cosmic Consciousness (Đàn Tranh + Đàn Bầu + Crystal Bowls).
+4. **Track 4:** `Tịch Tịnh Tánh Âm (Sacred Silent Resonance)` — 639Hz Harmonic Connection (Đàn Tranh + Sáo Đá + Cello).
+5. **Track 5:** `Chân Như Trầm Tịch (Unmoving Cosmic Peace)` — 396Hz Deep Grounding (Đàn Tranh + Guqin + Temple Bell).
 
 ---
 
