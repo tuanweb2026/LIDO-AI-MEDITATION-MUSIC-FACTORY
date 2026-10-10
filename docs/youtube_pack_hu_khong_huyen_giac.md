@@ -3,8 +3,12 @@
 **Tác phẩm:** Hư Không Huyền Giác (Tuyển Tập 5 Tác Phẩm Thiền Huyền Bí)  
 **Mã sản phẩm:** `YTB_PACK_LIDO_003_CTA`  
 **Thương hiệu:** LIDO Meditation  
-**Thời lượng video:** 3 Giờ (180 Phút)  
-**Ngày phát hành thiết kế:** 2026-10-10 (Hiệu chỉnh v1.1 High-CTA)  
+**Thời lượng video:** 3 Giờ (180 Phút — Exactly 03:00:00)  
+**Trạng thái Video Cục Bộ (Local Draft Status):**  
+- **Tệp Video Nháp 3 Giờ (Local MP4 Draft):** `hukhonghuyengiac_ny/HuKhongHuyenGiac_3Hours_Draft.mp4` (Dung lượng: 371 MB, 1080p Full HD)
+- **Tệp Audio Master 320kbps:** `hukhonghuyengiac_ny/HuKhongHuyenGiac_Master_320kbps.mp3` (38:28)
+- **Bộ 100 Câu Triết Lý:** `data/quotes_100.json` (Vô Thường, Vô Ngã, Tánh Không)
+- **Quyền Upload & Lên Lịch:** ⏳ **PENDING USER REVIEW & EXPLICIT APPROVAL** (Chưa upload, chưa đăng tải)
 
 ---
 
@@ -15,21 +19,9 @@
 HƯ KHÔNG HUYỀN GIÁC — Nhạc Thiền 963Hz Trút Bỏ Muộn Phiền, Giúp Ngủ Ngon Sâu Thẳm (3 Giờ) | Lido Meditation
 ```
 
-### 📌 Tiêu Đề 2 (Tối ưu Nhạc Cụ Mộc Đàn Tranh Sáo Trúc):
-```text
-Hòa Tấu Đàn Tranh Sáo Trúc 432Hz & 528Hz Giảm Stress, Tịnh Tâm Ngủ Ngon | Hư Không Huyền Giác (3 Giờ)
-```
-
-### 📌 Tiêu Đề 3 (Tiếng Anh - Thu Hút Khán Giả Quốc Tế):
-```text
-MYSTIC REALIZATION OF THE VOID — 963Hz Miracle Solfeggio Meditation Music for Deep Sleep & Stress Relief (3 Hours)
-```
-
 ---
 
 ## 2. Đoạn Mô Tả YouTube Tối Ưu CTA & Chi Tiết 5 Chương (Full High-CTA Description)
-
-Bạn copy nguyên văn đoạn dưới đây dán vào ô **Description** trên YouTube Studio:
 
 ```text
 🪷 HƯ KHÔNG HUYỀN GIÁC — TẬP HỢP 5 BẢN HÒA TẤU THIỀN HUYỀN BÍ (3 GIỜ) 🪷
@@ -85,28 +77,3 @@ Bạn cảm thấy bình an nhất ở Chương nào? Hãy ĐỂ LẠI BÌNH LU�
 
 #NhacThien #HuKhongHuyenGiac #DanTranhSaoTruc #432Hz #528Hz #963Hz #LidoMeditation #NhacNguNgon #GiambStress #ThienTinhTam
 ```
-
----
-
-## 3. Danh Sách 5 Master Prompts Tương Ứng 5 Chương (Dùng Cho Musicful.ai / Suno)
-
-1. **Chương 1 (00:00 - 30:00) — Vô Thường [528Hz]:**
-   ```text
-   Extended meditative Asian acoustic soundscape, leading traditional Vietnamese Dan Tranh 16-string zither with expressive organic bending notes, paired with deep acoustic bamboo flute Xiao. Subtle background layers of continuous resonant 528Hz Tibetan singing bowl drone in low-mid frequencies, mixed with gentle natural mountain stream water flowing at soft spatial background volume. Meditative, peaceful, slow tempo 60 BPM, pentatonic scale, no vocals, no drums, no percussion, no electronic synth pads, no electronic beats, 100 percent pure acoustic instruments.
-   ```
-2. **Chương 2 (30:00 - 01:00:00) — Trúc Lâm Sương Tịch [432Hz]:**
-   ```text
-   Extended tranquil Vietnamese acoustic meditation soundscape tuned to 432Hz natural frequency, lead traditional 16-string Dan Tranh zither with expressive organic note bending, paired with deep acoustic bamboo flute Tiêu and soft dampened acoustic guitar. Resonant low-mid background layer of continuous 432Hz Tibetan singing bowl drone, mixed with soft mountain stream water and gentle bamboo forest ambience. Peaceful, serene, 55 BPM, pentatonic scale, no vocals, no drums, no percussion, no electronic synth pads, 100 percent pure acoustic instruments.
-   ```
-3. **Chương 3 (01:00:00 - 01:30:00) — Hư Không Huyền Giác [963Hz]:**
-   ```text
-   Extended mystical Asian cosmic acoustic meditation, lead traditional Vietnamese Dan Tranh zither, harmonious Vietnamese Dan Bau monocord harmonics, paired with continuous resonant 963Hz crystal singing bowl drone. Pure spatial silence, soft ambient mountain wind, slow tempo 50 BPM, deep meditative state, pentatonic scale, no vocals, no drums, no percussion, no electronic synths, 100 percent pure acoustic instruments.
-   ```
-4. **Chương 4 (01:30:00 - 02:15:00) — Tịch Tịnh Tánh Âm [639Hz]:**
-   ```text
-   Extended peaceful East Asian acoustic meditation soundscape tuned to 639Hz frequency, leading Vietnamese Dan Tranh zither, warm acoustic cello drone, paired with gentle stone flute Xiao. Soft natural rain drops on lotus leaves background ambiance, meditative, serene, 58 BPM, pentatonic scale, no vocals, no drums, no percussion, no electronic synths, 100 percent pure acoustic instruments.
-   ```
-5. **Chương 5 (02:15:00 - 03:00:00) — Chân Như Trầm Tịch [396Hz]:**
-   ```text
-   Extended deep grounding Asian acoustic meditation soundscape tuned to 396Hz frequency, lead traditional Dan Tranh zither, ancient Guqin zither resonance, deep bronze Temple bell tolling at long intervals. Deep mountain cave acoustic resonance, slow tempo 48 BPM, peaceful, unshakable stillness, no vocals, no drums, no percussion, no electronic synths, 100 percent pure acoustic instruments.
-   ```

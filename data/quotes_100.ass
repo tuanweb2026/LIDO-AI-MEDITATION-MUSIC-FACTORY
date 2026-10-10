@@ -1,0 +1,115 @@
+[Script Info]
+Title: 100 Quotes Vo Thuong Vo Nga Tanh Khong
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: MeditationQuote,Arial,36,&H00FFFFFF,&H000000FF,&H80000000,&H80000000,0,0,0,0,100,100,0,0,1,2,2,2,100,100,90,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:01:48.00,MeditationQuote,,0,0,0,,1. Tất cả pháp hữu vi đều là vô thường, có sinh\Ntất có diệt. Tâm an nhiên khi chấp nhận sự đổi thay.
+Dialogue: 0,0:01:48.00,0:03:36.00,MeditationQuote,,0,0,0,,2. Hoa nở rồi tàn, trăng tròn lại khuyết. Vô thường\Nkhông phải u buồn, mà là bản chất của sự sống.
+Dialogue: 0,0:03:36.00,0:05:24.00,MeditationQuote,,0,0,0,,3. Ngày hôm nay trôi qua sẽ không bao giờ\Ntrở lại. Hãy trân trọng từng phút giây trong tĩnh lặng.
+Dialogue: 0,0:05:24.00,0:07:12.00,MeditationQuote,,0,0,0,,4. Đừng bám chấp vào quá khứ, đừng mong cầu\Nở tương lai. Hiện tại chính là nơi bình an nhất.
+Dialogue: 0,0:07:12.00,0:09:00.00,MeditationQuote,,0,0,0,,5. Mọi dòng sông đều chảy ra biển lớn,\Nmọi đám mây rồi sẽ tan biến trên tầng không.
+Dialogue: 0,0:09:00.00,0:10:48.00,MeditationQuote,,0,0,0,,6. Thân thể này, cảm xúc này, ý nghĩ\Nnày... tất cả đều đang đổi thay từng khoảnh khắc.
+Dialogue: 0,0:10:48.00,0:12:36.00,MeditationQuote,,0,0,0,,7. Khi thấu hiểu vô thường, ta ngừng oán trách\Nnhững dở dang và biết mỉm cười với hiện tại.
+Dialogue: 0,0:12:36.00,0:14:24.00,MeditationQuote,,0,0,0,,8. Cuộc đời như giọt sương trên đầu cỏ,\Ntan biến khi ánh mặt trời vừa hửng sáng.
+Dialogue: 0,0:14:24.00,0:16:12.00,MeditationQuote,,0,0,0,,9. Buông tay không phải là mất mát, mà\Nlà nhường chỗ cho sự thanh thản bước vào.
+Dialogue: 0,0:16:12.00,0:18:00.00,MeditationQuote,,0,0,0,,10. Không có gì là vĩnh cửu dưới ánh mặt\Ntrời. Hãy sống chân thành và an an lặng lặng.
+Dialogue: 0,0:18:00.00,0:19:48.00,MeditationQuote,,0,0,0,,11. Niềm vui đến rồi đi, nỗi buồn cũng sinh\Nrồi diệt. Đừng để lòng mình chao đảo theo ngoại cảnh.
+Dialogue: 0,0:19:48.00,0:21:36.00,MeditationQuote,,0,0,0,,12. Thảnh thơi bước đi trong vô thường,\Nnhư làn gió mát lướt nhẹ qua rừng trúc.
+Dialogue: 0,0:21:36.00,0:23:24.00,MeditationQuote,,0,0,0,,13. Khi biết trước tương phùng sẽ có ngày chia\Nly, ta càng nâng niu từng khoảnh khắc hiện hữu.
+Dialogue: 0,0:23:24.00,0:25:12.00,MeditationQuote,,0,0,0,,14. Thế gian vạn vật như giấc mộng giữa ban\Nngày, thức tỉnh rồi chỉ còn lại lòng thanh thản.
+Dialogue: 0,0:25:12.00,0:27:00.00,MeditationQuote,,0,0,0,,15. Vô thường nhắc nhở ta rằng không\Ncó khó khăn nào kéo dài mãi mãi.
+Dialogue: 0,0:27:00.00,0:28:48.00,MeditationQuote,,0,0,0,,16. Hãy thả trôi những muộn phiền như\Nchiếc lá khô trôi theo dòng suối mát.
+Dialogue: 0,0:28:48.00,0:30:36.00,MeditationQuote,,0,0,0,,17. Đêm tối trôi qua, bình minh lại đến. Vô\Nthường chính là niềm hy vọng của sự khởi đầu.
+Dialogue: 0,0:30:36.00,0:32:24.00,MeditationQuote,,0,0,0,,18. Đừng giữ chặt những gì không thuộc về\Nmình, vì vạn vật vốn là của đất trời.
+Dialogue: 0,0:32:24.00,0:34:12.00,MeditationQuote,,0,0,0,,19. Nhẹ nhàng đi qua những biến động của\Ncuộc đời với trái tim bao dung và thanh tịnh.
+Dialogue: 0,0:34:12.00,0:36:00.00,MeditationQuote,,0,0,0,,20. Tâm tĩnh lặng nhìn đời đổi thay,\Nnhư rặng núi đứng yên giữa ngàn mây trôi.
+Dialogue: 0,0:36:00.00,0:37:48.00,MeditationQuote,,0,0,0,,21. Mọi vinh hoa phú quý rồi cũng như mây\Nkhói, chỉ có sự bình an nội tại là đáng quý.
+Dialogue: 0,0:37:48.00,0:39:36.00,MeditationQuote,,0,0,0,,22. Cảm xúc như những làn sóng trên mặt\Nbiển, rồi sẽ dịu êm trả lại sự phẳng lặng.
+Dialogue: 0,0:39:36.00,0:41:24.00,MeditationQuote,,0,0,0,,23. Học cách buông bỏ mỗi ngày là học\Ncách trở về với sự tự do trọn vẹn.
+Dialogue: 0,0:41:24.00,0:43:12.00,MeditationQuote,,0,0,0,,24. Khi ta không cưỡng lại sự đổi\Nthay, mọi đau khổ liền tự động tan biến.
+Dialogue: 0,0:43:12.00,0:45:00.00,MeditationQuote,,0,0,0,,25. Sức mạnh lớn nhất của tâm hồn là\Nsự kiên định tĩnh lặng giữa muôn vàn vô thường.
+Dialogue: 0,0:45:00.00,0:46:48.00,MeditationQuote,,0,0,0,,26. Mỗi hơi thở ra là một sự giải\Nthoát, mỗi hơi thở vào là một sự tái sinh.
+Dialogue: 0,0:46:48.00,0:48:36.00,MeditationQuote,,0,0,0,,27. Hãy sống trọn vẹn từng phút giây như\Nthể đó là khoảnh khắc duy nhất trên đời.
+Dialogue: 0,0:48:36.00,0:50:24.00,MeditationQuote,,0,0,0,,28. Cuộc đời là chuỗi những cuộc gặp gỡ và\Nchia xa, hãy để tất cả diễn ra tự nhiên.
+Dialogue: 0,0:50:24.00,0:52:12.00,MeditationQuote,,0,0,0,,29. Bình an không nằm ở hoàn cảnh bên ngoài,\Nmà nằm ở thái độ đón nhận của tâm ta.
+Dialogue: 0,0:52:12.00,0:54:00.00,MeditationQuote,,0,0,0,,30. Mây tan mây hợp trên tầng không,\Nlòng không bận bận thế gian thong dong.
+Dialogue: 0,0:54:00.00,0:55:48.00,MeditationQuote,,0,0,0,,31. Sự đổi thay là quy luật\Nduy nhất không bao giờ đổi thay.
+Dialogue: 0,0:55:48.00,0:57:36.00,MeditationQuote,,0,0,0,,32. Đừng xây nhà trên cát, đừng gửi\Ngắm hạnh phúc vào những điều mong manh.
+Dialogue: 0,0:57:36.00,0:59:24.00,MeditationQuote,,0,0,0,,33. Biết đủ là hạnh phúc lớn\Nnhất, biết buông là tự do cao nhất.
+Dialogue: 0,0:59:24.00,1:01:12.00,MeditationQuote,,0,0,0,,34. Nhẹ bước thong dong giữa cõi\Nđời, tâm không vướng bận lòng an vui.
+Dialogue: 0,1:01:12.00,1:03:00.00,MeditationQuote,,0,0,0,,35. Trôi theo dòng chảy của đất\Ntrời với trái tim ngập tràn yêu thương.
+Dialogue: 0,1:03:00.00,1:04:48.00,MeditationQuote,,0,0,0,,36. Cái 'tôi' chỉ là một ảo tưởng của tâm\Ntrí. Khi tan hòa vào vũ trụ, vạn vật là một.
+Dialogue: 0,1:04:48.00,1:06:36.00,MeditationQuote,,0,0,0,,37. Sóng nước không thể tách rời khỏi đại\Ndương. Ta và vạn vật vốn hòa quyện làm một.
+Dialogue: 0,1:06:36.00,1:08:24.00,MeditationQuote,,0,0,0,,38. Đừng tìm kiếm cái 'tôi' trong những suy\Nnghĩ, vì suy nghĩ chỉ là làn gió thoảng qua.
+Dialogue: 0,1:08:24.00,1:10:12.00,MeditationQuote,,0,0,0,,39. Khi không còn cái 'tôi' để bảo vệ,\Nnỗi sợ hãi và giận dữ tự nhiên biến mất.
+Dialogue: 0,1:10:12.00,1:12:00.00,MeditationQuote,,0,0,0,,40. Như ngọn lửa chuyền từ cây nến này sang\Ncây nến khác, sự sống là dòng chảy liên tục.
+Dialogue: 0,1:12:00.00,1:13:48.00,MeditationQuote,,0,0,0,,41. Ta không sở hữu bất kỳ điều gì, kể\Ncả thân xác này. Tất cả chỉ là duyên hợp.
+Dialogue: 0,1:13:48.00,1:15:36.00,MeditationQuote,,0,0,0,,42. Khi lòng bớt ngạo mạn và bám chấp,\Nsự yêu thương và thấu hiểu tự nhiên đong đầy.
+Dialogue: 0,1:15:36.00,1:17:24.00,MeditationQuote,,0,0,0,,43. Hãy khiêm nhường như hạt bụi nhỏ,\Nđể thấy mình hòa hợp cùng cả không gian.
+Dialogue: 0,1:17:24.00,1:19:12.00,MeditationQuote,,0,0,0,,44. Nỗi đau nảy sinh khi ta nghĩ 'đây là\Ncủa tôi'. Buông xả sở hữu, tâm liền an tịnh.
+Dialogue: 0,1:19:12.00,1:21:00.00,MeditationQuote,,0,0,0,,45. Thân này là sự kết hợp của đất, nước,\Ngió, lửa. Khi hết duyên lại trở về cùng thiên nhiên.
+Dialogue: 0,1:21:00.00,1:22:48.00,MeditationQuote,,0,0,0,,46. Hãy lắng nghe tiếng sáo vang\Nmà không cần tìm kiếm người thổi sáo.
+Dialogue: 0,1:22:48.00,1:24:36.00,MeditationQuote,,0,0,0,,47. Khi cái 'tôi' lắng xuống, sự chân\Nthật và lòng từ bi tự nhiên tỏa sáng.
+Dialogue: 0,1:24:36.00,1:26:24.00,MeditationQuote,,0,0,0,,48. Đừng để lòng mình bị giam cầm\Ntrong cái gông cúng của định kiến cá nhân.
+Dialogue: 0,1:26:24.00,1:28:12.00,MeditationQuote,,0,0,0,,49. Hạnh phúc chân thật bừng nở khi ta\Nquên đi bản thân để nâng đỡ người khác.
+Dialogue: 0,1:28:12.00,1:30:00.00,MeditationQuote,,0,0,0,,50. Ta là cây trúc nghiêng mình trước\Ngió, không kháng cự nên không bao giờ gãy.
+Dialogue: 0,1:30:00.00,1:31:48.00,MeditationQuote,,0,0,0,,51. Cảnh vật tĩnh lặng hay xôn xao\Nđều do tâm ta phân biệt mà ra.
+Dialogue: 0,1:31:48.00,1:33:36.00,MeditationQuote,,0,0,0,,52. Nhìn cây thấy lá, nhìn lá thấy\Nrừng. Mọi sự vật đều chứa đựng lẫn nhau.
+Dialogue: 0,1:33:36.00,1:35:24.00,MeditationQuote,,0,0,0,,53. Khi buông bỏ ảo tưởng về một cái 'tôi'\Ncố định, ta tìm thấy sự tự do đích thực.
+Dialogue: 0,1:35:24.00,1:37:12.00,MeditationQuote,,0,0,0,,54. Giọt nước hòa vào biển\Ncả sẽ không bao giờ cạn khô.
+Dialogue: 0,1:37:12.00,1:39:00.00,MeditationQuote,,0,0,0,,55. Đừng so sánh mình với bất kỳ ai,\Nvì vạn vật đều có vẻ đẹp riêng của nó.
+Dialogue: 0,1:39:00.00,1:40:48.00,MeditationQuote,,0,0,0,,56. Tâm rộng lớn như lòng đại dương, chứa\Nđựng mọi dòng sông mà không hề tràn dâng.
+Dialogue: 0,1:40:48.00,1:42:36.00,MeditationQuote,,0,0,0,,57. Sự tĩnh lặng chân thật là khi\Ncái 'tôi' không còn tranh giành đúng sai.
+Dialogue: 0,1:42:36.00,1:44:24.00,MeditationQuote,,0,0,0,,58. Hãy như dòng suối trong vắt, chảy\Nqua mọi ghềnh đá mà không hề vướng bận.
+Dialogue: 0,1:44:24.00,1:46:12.00,MeditationQuote,,0,0,0,,59. Không bám chấp vào thành hay bại,\Nkhen hay chê. Lòng an nhiên như mây trời.
+Dialogue: 0,1:46:12.00,1:48:00.00,MeditationQuote,,0,0,0,,60. Trái tim rộng mở là trái\Ntim không dựng lên rào cản phân biệt.
+Dialogue: 0,1:48:00.00,1:49:48.00,MeditationQuote,,0,0,0,,61. Khi ta không còn tự khẳng định\Nmình, vạn vật tự nhiên tôn trọng ta.
+Dialogue: 0,1:49:48.00,1:51:36.00,MeditationQuote,,0,0,0,,62. Nhẹ nhàng đi qua nhân thế, không\Nđể lại vết chân oán hận hay giận hường.
+Dialogue: 0,1:51:36.00,1:53:24.00,MeditationQuote,,0,0,0,,63. Sống bình dị giữa đời thường,\Nnhư hoa sen nở giữa hồ nước trong.
+Dialogue: 0,1:53:24.00,1:55:12.00,MeditationQuote,,0,0,0,,64. Sự tha thứ lớn nhất là tha thứ\Ncho những lầm lỗi của chính bản thân mình.
+Dialogue: 0,1:55:12.00,1:57:00.00,MeditationQuote,,0,0,0,,65. Khi ta thương yêu người khác mà không\Nđòi hỏi đền đáp, đó là tình thương vô ngã.
+Dialogue: 0,1:57:00.00,1:58:48.00,MeditationQuote,,0,0,0,,66. Hãy nhìn cuộc đời bằng đôi\Nmắt của sự bao dung và thấu hiểu.
+Dialogue: 0,1:58:48.00,2:00:36.00,MeditationQuote,,0,0,0,,67. Cây không đòi hỏi đất trả\Nơn, sông không đòi hỏi biển ghi nhận.
+Dialogue: 0,2:00:36.00,2:02:24.00,MeditationQuote,,0,0,0,,68. Tâm vô ngã là tâm không bị chao\Nđảo trước phong ba bão táp của cuộc đời.
+Dialogue: 0,2:02:24.00,2:04:12.00,MeditationQuote,,0,0,0,,69. Hãy chìm vào tĩnh lặng để\Nnghe tiếng nói nhiệm màu của trái tim.
+Dialogue: 0,2:04:12.00,2:06:00.00,MeditationQuote,,0,0,0,,70. Trở về với chính mình là\Ntrở về với sự an bình sẵn có.
+Dialogue: 0,2:06:00.00,2:07:48.00,MeditationQuote,,0,0,0,,71. Tánh Không không phải là hư vô bế tắc,\Nmà là khả năng vô tận của sự khởi sinh.
+Dialogue: 0,2:07:48.00,2:09:36.00,MeditationQuote,,0,0,0,,72. Ly rỗng mới chứa được nước. Tâm\Nrỗng rang mới đón nhận được sự an lành.
+Dialogue: 0,2:09:36.00,2:11:24.00,MeditationQuote,,0,0,0,,73. Như bầu trời trong xanh chứa đựng muôn\Nvàn đám mây mà không bị mây làm ô nhiễm.
+Dialogue: 0,2:11:24.00,2:13:12.00,MeditationQuote,,0,0,0,,74. Bản chất của mọi sự vật là Không, nên\Nvạn vật mới có thể biến đổi và phát triển.
+Dialogue: 0,2:13:12.00,2:15:00.00,MeditationQuote,,0,0,0,,75. Khi tâm không vướng bận một hạt\Nbụi, khắp nơi đều là chốn bồng lai.
+Dialogue: 0,2:15:00.00,2:16:48.00,MeditationQuote,,0,0,0,,76. Lắng nghe tiếng chuông ngân vào hư\Nkhông, lòng nhẹ nhõm như chưa từng lo âu.
+Dialogue: 0,2:16:48.00,2:18:36.00,MeditationQuote,,0,0,0,,77. Trái tim rỗng rang là trái\Ntim đong đầy tình yêu thương chân thật.
+Dialogue: 0,2:18:36.00,2:20:24.00,MeditationQuote,,0,0,0,,78. Mọi hình tướng rồi sẽ tan hòa\Nvào cái Không rộng lớn của vũ trụ.
+Dialogue: 0,2:20:24.00,2:22:12.00,MeditationQuote,,0,0,0,,79. Khi không còn bám chấp vào có\Nhay không, ta bước vào cảnh giới tự tại.
+Dialogue: 0,2:22:12.00,2:24:00.00,MeditationQuote,,0,0,0,,80. Tĩnh lặng là ngôn ngữ nguyên sơ\Ncủa vũ trụ. Hãy lắng nghe trong yên lặng.
+Dialogue: 0,2:24:00.00,2:25:48.00,MeditationQuote,,0,0,0,,81. Như ánh trăng soi bóng xuống đáy hồ, hiện\Nrõ mà không để lại vết sẹo trên mặt nước.
+Dialogue: 0,2:25:48.00,2:27:36.00,MeditationQuote,,0,0,0,,82. Sự rỗng rang trong tâm hồn chính\Nlà chiếc cầu nối ta với vạn vật.
+Dialogue: 0,2:27:36.00,2:29:24.00,MeditationQuote,,0,0,0,,83. Đừng tìm kiếm sự tĩnh lặng ở nơi nào\Nxa xôi, nó đang có mặt ngay trong hơi thở này.
+Dialogue: 0,2:29:24.00,2:31:12.00,MeditationQuote,,0,0,0,,84. Nhìn thấu Tánh Không để\Nsống nhiệt thành mà không bám chấp.
+Dialogue: 0,2:31:12.00,2:33:00.00,MeditationQuote,,0,0,0,,85. Bình an là khi tâm ta tĩnh\Nlặng như mặt hồ không một gờn sóng.
+Dialogue: 0,2:33:00.00,2:34:48.00,MeditationQuote,,0,0,0,,86. Hãy như khoảng trống trong chiếc\Nbình, tạo nên giá trị cho chiếc bình.
+Dialogue: 0,2:34:48.00,2:36:36.00,MeditationQuote,,0,0,0,,87. Khi mọi ý niệm phân biệt tan biến,\Nthực tại hiện ra trong vẻ đẹp nguyên sơ.
+Dialogue: 0,2:36:36.00,2:38:24.00,MeditationQuote,,0,0,0,,88. Tâm không phân biệt là tâm chan hòa cùng vạn vật.
+Dialogue: 0,2:38:24.00,2:40:12.00,MeditationQuote,,0,0,0,,89. Đi qua muôn vàn bão bùng mà\Nlòng vẫn giữ được sự bình yên trong trẻo.
+Dialogue: 0,2:40:12.00,2:42:00.00,MeditationQuote,,0,0,0,,90. Hãy mỉm cười với mọi trải nghiệm,\Nvì tất cả rồi cũng sẽ trôi qua.
+Dialogue: 0,2:42:00.00,2:43:48.00,MeditationQuote,,0,0,0,,91. Tánh Không là nguồn gốc của\Nmọi sự chữa lành và bình an.
+Dialogue: 0,2:43:48.00,2:45:36.00,MeditationQuote,,0,0,0,,92. Đừng sợ hãi sự trống rỗng, đó\Nchính là khoảng không cho ước mơ bay xa.
+Dialogue: 0,2:45:36.00,2:47:24.00,MeditationQuote,,0,0,0,,93. Khi ta tĩnh lặng hoàn toàn,\Ncả vũ trụ lắng nghe cùng ta.
+Dialogue: 0,2:47:24.00,2:49:12.00,MeditationQuote,,0,0,0,,94. Sự trong trẻo của tâm hồn là\Ntài sản quý giá nhất của con người.
+Dialogue: 0,2:49:12.00,2:51:00.00,MeditationQuote,,0,0,0,,95. Hãy để những lo âu lắng xuống\Nnhư phù sa đọng lại đáy sông trong.
+Dialogue: 0,2:51:00.00,2:52:48.00,MeditationQuote,,0,0,0,,96. Trở về với Tánh Không là trở về\Nvới ngôi nhà bình yên nhất của tâm hồn.
+Dialogue: 0,2:52:48.00,2:54:36.00,MeditationQuote,,0,0,0,,97. Sống nhẹ nhàng, thở dịu êm, yêu thương vô điều kiện.
+Dialogue: 0,2:54:36.00,2:56:24.00,MeditationQuote,,0,0,0,,98. Mọi âm thanh đều phát xuất từ sự\Ntĩnh lặng và rồi quay trở về với tĩnh lặng.
+Dialogue: 0,2:56:24.00,2:58:12.00,MeditationQuote,,0,0,0,,99. Hãy là khoảng không bao la\Ncho mọi bông hoa rực rỡ ngát hương.
+Dialogue: 0,2:58:12.00,3:00:00.00,MeditationQuote,,0,0,0,,100. Nam Mô Bổn Sư Thích Ca Mâu Ni Phật — LIDO Meditation\Nnguyện chúc bạn luôn an yên và tự tại trong từng phút giây.
