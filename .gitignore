@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & Secrets
+.env
+.env.local
+*.pem
+*.key
+client_secret*.json
+
+# SQLite databases & local runtime state
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/backups/
+
+# Operating System & IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Coverage / Test output
+.coverage
+htmlcov/
+.pytest_cache/

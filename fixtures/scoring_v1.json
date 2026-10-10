@@ -1,0 +1,13 @@
+{
+  "formula_version": "v1.0.0",
+  "weights": {
+    "momentum": 0.35,
+    "engagement": 0.35,
+    "evergreen": 0.20,
+    "saturation_penalty": 0.10
+  },
+  "benchmarks": {
+    "max_expected_views": 2000000,
+    "target_engagement_ratio": 0.05
+  }
+}

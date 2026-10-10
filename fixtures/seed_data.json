@@ -1,0 +1,88 @@
+{
+  "channels": [
+    {
+      "channel_id": "UC_VN_MEDITATION_01",
+      "channel_title": "Nhạc Thiền Tịnh Tâm Việt Nam",
+      "custom_url": "@nhacthientinhtam",
+      "country": "VN",
+      "published_at": "2021-03-15T00:00:00Z",
+      "subscriber_count": 145000,
+      "total_views": 18500000,
+      "video_count": 85,
+      "source_id": "SRC_SYNTHETIC_01"
+    },
+    {
+      "channel_id": "UC_INT_CHILL_02",
+      "channel_title": "Deep Sleep & Healing Soundscapes",
+      "custom_url": "@deepsleephealing",
+      "country": "US",
+      "published_at": "2019-11-20T00:00:00Z",
+      "subscriber_count": 620000,
+      "total_views": 89000000,
+      "video_count": 210,
+      "source_id": "SRC_SYNTHETIC_01"
+    }
+  ],
+  "videos": [
+    {
+      "video_id": "VID_VN_432HZ_001",
+      "channel_id": "UC_VN_MEDITATION_01",
+      "title": "Nhạc Thiền 432Hz Giúp Giảm Stress, Ngủ Ngon Ngay Lập Tức | Sóng Não Delta",
+      "description": "Nhạc thiền tần số 432Hz xua tan mệt mỏi, cân bằng năng lượng tích cực cho tâm hồn. Đeo tai nghe để có trải nghiệm tốt nhất.",
+      "published_at": "2026-08-10T12:00:00Z",
+      "duration_seconds": 10800,
+      "category_id": "10",
+      "default_language": "vi",
+      "provenance": "SYNTHETIC_FIXTURE",
+      "view_count": 350000,
+      "like_count": 12500,
+      "comment_count": 890,
+      "tags": ["nhac thien", "432hz", "ngu ngon", "giam stress", "delta waves"]
+    },
+    {
+      "video_id": "VID_VN_528HZ_002",
+      "channel_id": "UC_VN_MEDITATION_01",
+      "title": "Tần Số 528Hz Tái Tạo Năng Lượng Tích Cực | Nhạc Thiền Chữa Lành Tâm Hồn",
+      "description": "Âm nhạc chữa lành 528Hz Solfeggio frequency mang lại sự bình an và tái tạo tế bào.",
+      "published_at": "2026-09-01T08:30:00Z",
+      "duration_seconds": 7200,
+      "category_id": "10",
+      "default_language": "vi",
+      "provenance": "SYNTHETIC_FIXTURE",
+      "view_count": 180000,
+      "like_count": 7200,
+      "comment_count": 410,
+      "tags": ["528hz", "solfeggio", "chua lanh", "nhac thien"]
+    },
+    {
+      "video_id": "VID_INT_DELTA_003",
+      "channel_id": "UC_INT_CHILL_02",
+      "title": "Deep Sleep Music 432Hz - Peaceful Night Meditation & Rain Sounds",
+      "description": "Calming rain audio combined with 432Hz tuned ambient synth pads for instant deep sleep and anxiety relief.",
+      "published_at": "2026-07-15T18:00:00Z",
+      "duration_seconds": 28800,
+      "category_id": "10",
+      "default_language": "en",
+      "provenance": "SYNTHETIC_FIXTURE",
+      "view_count": 1250000,
+      "like_count": 48000,
+      "comment_count": 3100,
+      "tags": ["sleep music", "432hz", "rain sounds", "meditation"]
+    },
+    {
+      "video_id": "VID_INT_PIANO_004",
+      "channel_id": "UC_INT_CHILL_02",
+      "title": "Relaxing Piano & Soft Ocean Waves for Studying and Focus",
+      "description": "Minimalist acoustic piano melodies overlaid with natural ocean sounds.",
+      "published_at": "2026-09-18T10:00:00Z",
+      "duration_seconds": 14400,
+      "category_id": "10",
+      "default_language": "en",
+      "provenance": "SYNTHETIC_FIXTURE",
+      "view_count": 95000,
+      "like_count": 3800,
+      "comment_count": 190,
+      "tags": ["piano meditation", "ocean waves", "focus music"]
+    }
+  ]
+}
