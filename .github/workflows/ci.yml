@@ -1,0 +1,42 @@
+name: Phase 0.6 CI & Security Audit Bridge
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  verify-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v3
+
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v4
+        with:
+          python-python: '3.9'
+
+      - name: Run Pre-Push Security & Compliance Scan
+        run: |
+          PYTHONPATH=. python3 scripts/pre_push_check.py
+
+      - name: Execute Unit Test Suite
+        run: |
+          PYTHONPATH=. python3 -m unittest discover -s tests -v
+
+      - name: Output CI Summary to Job Summary
+        if: always()
+        run: |
+          echo "## LIDO AI Meditation Music Factory — CI Status" >> $GITHUB_STEP_SUMMARY
+          echo "**Commit SHA:** \`${{ github.sha }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "**Ref:** \`${{ github.ref }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "**Phase:** Phase 0.6 Automated Bridge" >> $GITHUB_STEP_SUMMARY
+          echo "**Phase 1 Authorized:** NO (Awaiting Owner Approval)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Audit Reports Generated" >> $GITHUB_STEP_SUMMARY
+          echo "- \`reports/bridge_status.json\`" >> $GITHUB_STEP_SUMMARY
+          echo "- \`reports/current_status.md\`" >> $GITHUB_STEP_SUMMARY
+          echo "- \`handoff/NEXT_TASK.md\`" >> $GITHUB_STEP_SUMMARY
