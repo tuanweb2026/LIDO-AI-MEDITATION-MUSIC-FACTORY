@@ -28,7 +28,6 @@ def get_system_font(font_size=36):
 def create_base_canvas(img_path, canvas_w=1920, canvas_h=1080):
     original_img = Image.open(img_path).convert("RGBA")
     
-    # 1. Background blurred fill
     bg_img = original_img.copy()
     bg_w, bg_h = bg_img.size
     bg_aspect = bg_w / bg_h
@@ -43,21 +42,17 @@ def create_base_canvas(img_path, canvas_w=1920, canvas_h=1080):
         
     bg_img = bg_img.resize((new_w, new_h), Image.Resampling.LANCZOS)
     
-    # Crop to exact 1920x1080
     left = (new_w - canvas_w) // 2
     top = (new_h - canvas_h) // 2
     bg_img = bg_img.crop((left, top, left + canvas_w, top + canvas_h))
     
-    # Blur background
     bg_blurred = bg_img.filter(ImageFilter.GaussianBlur(radius=35))
     
-    # 2. Foreground centered vertical image
     fg_img = original_img.copy()
     fg_h = canvas_h
     fg_w = int(canvas_h * (original_img.width / original_img.height))
     fg_img = fg_img.resize((fg_w, fg_h), Image.Resampling.LANCZOS)
     
-    # Composite foreground onto blurred background centered
     fg_x = (canvas_w - fg_w) // 2
     base = bg_blurred.copy()
     base.paste(fg_img, (fg_x, 0), fg_img)
@@ -71,12 +66,10 @@ def render_slide(base_canvas, quote_text, index, total, output_path):
     small_font = get_system_font(24)
     header_font = get_system_font(28)
     
-    # Glassmorphism dark card overlay at bottom center
     card_w, card_h = 1700, 220
     card_x = (1920 - card_w) // 2
     card_y = 1080 - card_h - 50
     
-    # Draw semi-transparent rounded rectangle card
     overlay = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
     overlay_draw = ImageDraw.Draw(overlay)
     overlay_draw.rounded_rectangle(
@@ -87,15 +80,12 @@ def render_slide(base_canvas, quote_text, index, total, output_path):
         width=2
     )
     
-    # Composite overlay
     canvas = Image.alpha_composite(canvas, overlay)
     draw = ImageDraw.Draw(canvas)
     
-    # Header tag
     header_text = f"🪷 LIDO MEDITATION — HƯ KHÔNG HUYỀN GIÁC ({index}/{total})"
     draw.text((card_x + 30, card_y + 20), header_text, font=header_font, fill=(212, 175, 55, 255))
     
-    # Word wrap quote text
     words = quote_text.split()
     lines = []
     current_line = []
@@ -111,11 +101,10 @@ def render_slide(base_canvas, quote_text, index, total, output_path):
         lines.append(" ".join(current_line))
         
     line_y = card_y + 65
-    for line in lines[:3]: # Max 3 lines
+    for line in lines[:3]:
         draw.text((card_x + 30, line_y), line, font=font, fill=(255, 255, 255, 255))
         line_y += 45
         
-    # Footer tag
     footer_text = "528Hz • 432Hz • 963Hz Solfeggio Meditation Music"
     draw.text((card_x + card_w - 520, card_y + card_h - 35), footer_text, font=small_font, fill=(180, 200, 190, 220))
     
@@ -124,8 +113,10 @@ def render_slide(base_canvas, quote_text, index, total, output_path):
 
 def main():
     quotes_file = "data/quotes_100.json"
-    img_path = "/Users/abc/Documents/KenhYTB/hukhonghuyengiac_ny/hukhonghuyengiac.png"
-    audio_path = "/Users/abc/Documents/KenhYTB/hukhonghuyengiac_ny/HuKhongHuyenGiac_Master_320kbps.mp3"
+    # Construct input image & audio paths dynamically without hardcoded user paths
+    target_dir = os.path.expanduser("~/Documents/KenhYTB/hukhonghuyengiac_ny")
+    img_path = os.path.join(target_dir, "hukhonghuyengiac.png")
+    audio_path = os.path.join(target_dir, "HuKhongHuyenGiac_Master_320kbps.mp3")
     slides_dir = "data/slides"
     
     if not os.path.exists(quotes_file):
@@ -147,14 +138,12 @@ def main():
         if i % 20 == 0 or i == len(quotes):
             print(f"  Rendered {i}/{len(quotes)} slides.")
             
-    # Build concat filelist for ffmpeg
     concat_list_path = "data/slides_concat.txt"
     with open(concat_list_path, "w", encoding="utf-8") as f:
         for i in range(1, len(quotes) + 1):
             slide_abs = os.path.abspath(os.path.join(slides_dir, f"slide_{i:03d}.png"))
             f.write(f"file '{slide_abs}'\n")
-            f.write("duration 108\n") # 108 seconds per slide
-        # Last image duration repetition for ffmpeg concat filter requirement
+            f.write("duration 108\n")
         last_abs = os.path.abspath(os.path.join(slides_dir, f"slide_{len(quotes):03d}.png"))
         f.write(f"file '{last_abs}'\n")
         
