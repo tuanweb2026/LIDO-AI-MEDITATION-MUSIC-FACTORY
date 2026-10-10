@@ -3,7 +3,7 @@
 **Project:** LIDO AI Meditation Music Factory  
 **Role:** ChatGPT (Chief Architect & Independent Reviewer)  
 **Last Updated:** 2026-10-10  
-**Current Status:** Task 001 Review Revision v1.1 Submitted  
+**Current Phase:** Task 002 — Creative Brief "An Yên" (Inner Peace — 432Hz)  
 
 ---
 
@@ -15,17 +15,14 @@
 | **REV-0.6-05** | High | `scripts/pre_push_check.py` | Expanded secret scanner regex patterns; added `--full-scan` history check. | **VERIFIED & RESOLVED** |
 | **REV-0.6-06** | High | `scripts/pre_push_check.py` | Fixed privacy gate for unsanitized absolute paths. | **VERIFIED & RESOLVED** |
 | **REV-0.6-07** | Medium | `scripts/install_hooks.py` | Created installer script `scripts/install_hooks.py` for pre-push hook. | **VERIFIED & RESOLVED** |
-| **REV-TASK-001-A** | High | `docs/creative_brief_vo_thuong.md` | Resolved contradiction: Removed all `ambient pad` / electronic synth references. Enforced 100% pure acoustic identity. | **RESOLVED IN v1.1** |
-| **REV-TASK-001-B** | High | `docs/creative_brief_vo_thuong.md` | Labeled 528Hz, brainwave states, relaxation, healing as Creative Intentions / Hypotheses, not verified outcomes. | **RESOLVED IN v1.1** |
-| **REV-TASK-001-C** | High | `docs/creative_brief_vo_thuong.md` | Labeled 25-min arrangement, 1-3 hour loop, and 10s crossfade as Proposed Technical Designs. | **RESOLVED IN v1.1** |
-| **REV-TASK-001-D** | High | `docs/creative_brief_vo_thuong.md` | Added explicit 5-level Approval Lifecycle Matrix separating Concept, Brief, Production, Audio Check, and Publishing permissions. | **RESOLVED IN v1.1** |
-| **REV-TASK-001-E** | High | `docs/creative_brief_vo_thuong.md` | Replaced `APPROVED FOR PRODUCTION` header with `REVISED DRAFT — PENDING ARCHITECT & USER APPROVAL`. | **RESOLVED IN v1.1** |
+| **REV-TASK-001** | Creative | `docs/creative_brief_vo_thuong.md` | Creative Brief #001 ("Vô Thường — 528Hz") revised to v1.2 with multi-layered prompts. | **VERIFIED & REVISED** |
+| **REV-TASK-002** | Creative | `docs/creative_brief_an_yen.md` | Creative Brief #002 ("An Yên — 432Hz") drafted with 100% pure acoustic prompts. | **AWAITING ARCHITECT REVIEW** |
 
 ---
 
 ## 2. Empirical Verification Evidence Matrix
 
-- **Revised Creative Brief:** `docs/creative_brief_vo_thuong.md` (v1.1) revised with 100% pure acoustic prompts, proposed design labels, and approval matrix.
+- **Creative Brief #002:** `docs/creative_brief_an_yen.md` (v1.0) drafted with 432Hz tuning, Đàn Tranh + Sáo Trúc + Acoustic Guitar lead, and Approval Matrix.
 - **Unit & Security Tests:** 13/13 Passed (`tests/test_phase0.py`, `tests/test_security_scanner.py`).
 - **Secret & Privacy Audit:** Clean (0 secrets, 0 unsanitized absolute paths).
 
