@@ -1,17 +1,17 @@
-# Handoff Specification for ChatGPT Architect — Task 004 Review
+# Handoff Specification for ChatGPT Architect — Task 005 Review
 
 **Date:** 2026-10-10  
-**Task:** Task 004 — YouTube Pack & Chapter Blueprint "Hư Không Huyền Giác" (3 Hours)  
+**Task:** Task 005 — High-CTA YouTube Pack & 5-Chapter Story Blueprint "Hư Không Huyền Giác" (v1.1)  
 **Repository:** https://github.com/tuanweb2026/LIDO-AI-MEDITATION-MUSIC-FACTORY  
 
 ---
 
 ## 1. Concrete Task for ChatGPT Review
 
-Review the YouTube Metadata & Chapter Blueprint for **"Hư Không Huyền Giác — 963Hz Miracle Meditation (3 Hours)"** (`docs/youtube_pack_hu_khong_huyen_giac.md`).
+Review the High-CTA YouTube Description & 5-Chapter Story Blueprint for **"Hư Không Huyền Giác — 963Hz Miracle Meditation (3 Hours)"** (`docs/youtube_pack_hu_khong_huyen_giac.md` v1.1).
 
 ### Relevant Artifacts & Verification Links:
-- YouTube Pack Document: `docs/youtube_pack_hu_khong_huyen_giac.md`
+- High-CTA YouTube Pack Document: `docs/youtube_pack_hu_khong_huyen_giac.md`
 - Mystical Series Catalog: `docs/lido_mystical_meditation_series.md`
 - Master Status: `reports/current_status.md`
 - Review Register: `reports/CHATGPT_REVIEW.md`
@@ -19,16 +19,19 @@ Review the YouTube Metadata & Chapter Blueprint for **"Hư Không Huyền Giác 
 
 ---
 
-## 2. Key Specifications Submitted for Review
+## 2. Key High-CTA Specifications Submitted for Review
 
-1. **High-CTR Titles:** Vietnamese & English SEO titles optimized for search terms *Hư Không Huyền Giác*, *963Hz*, *Nhạc Thiền Đàn Tranh Sáo Trúc*.
-2. **Timestamped 5-Chapter Structure:**
-   - 00:00:00 — Chapter 1: Vô Thường (528Hz)
-   - 00:30:00 — Chapter 2: Trúc Lâm Sương Tịch (432Hz)
-   - 01:00:00 — Chapter 3: Hư Không Huyền Giác (963Hz)
-   - 01:30:00 — Chapter 4: Tịch Tịnh Tánh Âm (639Hz)
-   - 02:15:00 — Chapter 5: Chân Như Trầm Tịch (396Hz)
-3. **Integrated Master Prompts Assembly:** Complete prompt list provided for Musicful.ai / Suno audio generation per chapter.
+1. **High-Conversion Call-To-Action (CTA) Blocks:**
+   - CTA 1: Channel Subscription & Notification hook.
+   - CTA 2: Like & Save to Personal Playlist hook for nightly retention.
+   - CTA 3: Community Comment interaction hook ("Which chapter brought you peace?").
+   - CTA 4: Curated Playlist redirection links (432Hz & 528Hz playlists).
+2. **Rich 5-Chapter Story Descriptions:**
+   - 00:00:00 — Chapter 1: Vô Thường (528Hz Rebirth)
+   - 00:30:00 — Chapter 2: Trúc Lâm Sương Tịch (432Hz Sanctuary)
+   - 01:00:00 — Chapter 3: Hư Không Huyền Giác (963Hz Void Realization)
+   - 01:30:00 — Chapter 4: Tịch Tịnh Tánh Âm (639Hz Harmonic Resonance)
+   - 02:15:00 — Chapter 5: Chân Như Trầm Tịch (396Hz Deep Grounding)
 
 ---
 
